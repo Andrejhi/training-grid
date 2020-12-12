@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+
+}
+.grid__item{
+    text-align: center;
+    border: 2px dashed #333333;
+    padding: 30px;
+}
