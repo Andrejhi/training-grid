@@ -2,12 +2,15 @@
     padding: 0;
     margin: 0;
 }
-body{
-    display: grid;
+body{}
 
+.grid__body{
+    display: grid;
 }
 .grid__item{
     text-align: center;
+    /* width: 500px; */
     border: 2px dashed #333333;
     padding: 30px;
+    margin: 5px;
 }
