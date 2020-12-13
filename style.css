@@ -6,6 +6,8 @@ body{}
 
 .grid__body{
     display: grid;
+    grid-template-columns:300px 120px minmax(400px, 550px);
+    grid-template-rows: 1fr 1fr;
 }
 .grid__item{
     text-align: center;
