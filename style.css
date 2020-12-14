@@ -16,3 +16,13 @@ body{}
     padding: 30px;
     margin: 5px;
 }
+.gr_2{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+.gr__item__2{
+    text-align: center;
+    border: dashed 2px #313f2d;
+    padding: 5px;
+    margin: 50px;
+}
